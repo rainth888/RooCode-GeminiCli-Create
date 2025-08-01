@@ -1,0 +1,70 @@
+{
+  "name": "roo-code-gemini-cli-create",
+  "version": "1.0.0",
+  "description": "A standalone code completion tool for automatically adding Gemini CLI related code to Roo-Code projects",
+  "main": "gemini_cli_auto_complement.py",
+  "scripts": {
+    "start": "python gemini_cli_auto_complement.py",
+    "run": "run.bat",
+    "test": "python -m pytest tests/",
+    "lint": "python -m flake8 .",
+    "format": "python -m black ."
+  },
+  "keywords": [
+    "roo-code",
+    "gemini-cli",
+    "code-completion",
+    "automation",
+    "typescript",
+    "react",
+    "vscode-extension"
+  ],
+  "author": {
+    "name": "BillLei",
+    "email": "rainth888@gmail.com",
+    "url": "https://github.com/rainth888"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rainth888/RooCode-GeminiCli-Create.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rainth888/RooCode-GeminiCli-Create/issues"
+  },
+  "homepage": "https://github.com/rainth888/RooCode-GeminiCli-Create#readme",
+  "engines": {
+    "python": ">=3.7"
+  },
+  "classifiers": [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Text Processing :: Linguistic"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "gemini_cli_auto_complement.py",
+    "run.bat",
+    "requirements.txt",
+    "config.py",
+    "README.md",
+    "README_EN.md",
+    "oauth-setup.md",
+    "oauth-setup-en.md",
+    "LICENSE",
+    ".gitignore",
+    "z-geminicli-install/"
+  ]
+} 
